@@ -1,40 +1,24 @@
-.separate-containers .inside-article {
-padding-top: 0;	
-}
-.secondary-navigation ul {
-padding-right: 2rem;
-}
-.secondary-navigation .main-nav ul li a {
-	background: #da3d20;
-    margin: 20px;
-    line-height: 2rem;
-    font-weight: 600;
-}
-.welcome-image img {
-	margin: 20px;
-}.wp-block-columns .wp-block-column {
-    margin-bottom: 2em !important;
-}
-.wp-block-cover {
-    padding: 0;
-}
-/* Hero image title */
-h1.hero-title {
-	font-size: 30px;
-	font-weight: 700;
-	color: white;
-	text-shadow: 2px 2px 0 black;
-	display: inline-block;
-    margin-top: 15%;
-}
-/* For gray box background
-Vbox-shadow: -5px -3px 5px var(--light-gray,gray);
-	background-color: var(--light-gray,gray);
+/*
+ Theme Name:   VAD GP Child
+ Theme URI:    https://generatepress.com
+ Description:  Default Generate Press child
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
 */
-p.hero-title {
-	font-size: 20px;
-	font-weight: 700;
-	color: white;
-	text-shadow: 1px 1px 0 black;
-	display: table-cell;
+/* Assign color variables */
+:root {
+	--dark-blue: #242743;
+	--light-blue: #1e73be;
+	--blue: #4A5EA5;
+	--blue-comp: #433324;
+	--gray: #848DA5;
+	--off-white: #DEE2E9;
+	--dark-gray: #646B79;
+	--light-gray: #848da575;
+	--comp-gold: #baa954;
+	--triad-red: #ba5465;
+	--triad-green: #65ba54;
+	--footer-gray: #b9b6b6;
 }
