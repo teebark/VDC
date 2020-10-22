@@ -1,5 +1,5 @@
 /*
- Theme Name:   VAD GP Child
+ Theme Name:   VDC GP Child
  Theme URI:    https://generatepress.com
  Description:  Default Generate Press child
  Author:       Tom Usborne
@@ -9,16 +9,91 @@
 */
 /* Assign color variables */
 :root {
-	--dark-blue: #242743;
-	--light-blue: #1e73be;
-	--blue: #4A5EA5;
-	--blue-comp: #433324;
-	--gray: #848DA5;
-	--off-white: #DEE2E9;
-	--dark-gray: #646B79;
-	--light-gray: #848da575;
-	--comp-gold: #baa954;
-	--triad-red: #ba5465;
-	--triad-green: #65ba54;
+	--blue: #275197;
+	--gold: #f0b336;
+	--red: #da3d20;
 	--footer-gray: #b9b6b6;
+}
+.separate-containers .inside-article {
+padding-top: 0;	
+}
+/* Header width */
+body .grid-container {
+	max-width: 1600px;
+}
+/* Primary menu */
+.main-navigation {
+	background-color: var(--blue,blue);
+	text-align: center;
+}
+.main-navigation .main-nav ul li > a {
+	color: white;
+}
+.main-navigation ul li.main-hover:hover > a {
+	color: var(--gold,yellow);
+	background-color: var(--blue,blue);
+}
+/* Secondary menu */
+.secondary-navigation ul {
+padding-right: 2rem;
+}
+.secondary-navigation .main-nav ul li a {
+	background: var(--red,red);
+    margin: 20px;
+    line-height: 2rem;
+    font-weight: 600;
+}
+.secondary-navigation .main-nav  ul li.secondary-hover:hover > a {
+	background-color: var(--blue,blue);
+}
+/* Secondary menu background */
+#menu-secondary {
+	background: var(--gold,yellow);
+}
+
+/* Hero image title */
+h1.hero-title {
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px 0 black;
+	display: inline-block;
+    margin-top: 15%;
+}
+/* For gray box background
+Vbox-shadow: -5px -3px 5px var(--light-gray,gray);
+	background-color: var(--light-gray,gray);
+*/
+p.hero-title {
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	text-shadow: 1px 1px 0 black;
+	display: table-cell;
+}
+.welcome-image img {
+	margin: 20px;
+}
+.wp-block-columns .wp-block-column {
+    margin-bottom: 2em !important;
+}
+.wp-block-cover {
+    padding: 0;
+}
+/* Center the button in the home cover grid */
+.wp-block-buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* Adjust position of text in the home cover grid */
+.wp-block-cover__inner-container {
+	margin-top: 200px;
+}
+/* In order for this override to work, the button color has to be preset in the block */
+.home-button-1 .has-vivid-cyan-blue-background-color {
+	background-color: var(--blue,blue);
+}
+.home-button-1 .has-vivid-cyan-blue-background-color:hover {
+	color: var(--gold,gold);
 }
