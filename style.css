@@ -97,3 +97,97 @@ p.hero-title {
 .home-button-1 .has-vivid-cyan-blue-background-color:hover {
 	color: var(--gold,gold);
 }
+/* Staff cards */
+.about .board-card {
+	background: var(--gold,orange);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* Colors for column layouts */
+.learns-project .levels-background .wp-block-column {
+	background-color: var(--blue,blue);
+	display: flex;
+	flex-direction: column;
+}
+.volunteer-options .volunteer-background,
+.learns-project .learns-background,
+.learns-project h3.levels-background,
+.learns-project .support-background {
+	background: var(--gold, orange);
+	color: white;
+}
+.learns-project p.levels-background {
+	background: var(--blue,blue);
+	color: white;
+}
+.volunteer-options h2.volunteer-background,
+.learns-project h2.learns-background,
+.learns-project h3.levels-background,
+.learns-project h2.support-background,
+.learns-project p.support-background { 
+	color: white;
+	margin-bottom: 0;
+	padding: .5rem 0 .5rem 0;
+}
+.levels-background .wp-block-column p.levels-background {
+	margin: auto auto;
+}
+.about .board-card .board-title,
+.about .board-card .board-position {
+	color: white;
+	font-weight: 800;
+}
+.about .board-card p.board-title,
+.about .board-card p.board-position {
+	margin-bottom: 0;
+}
+/* Mission and vision on about page */
+.about .mission-vision-background.has-vivid-cyan-blue-background-color.has-background {
+	background-color: var(--blue,blue);
+	padding-bottom: 0;
+}
+.about .mission-vision {
+	font-weight: 800;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about .mission-vision h2 {
+	font-weight: 800;
+	border-bottom: 2px solid white;
+	padding-bottom: 1rem;
+	display: inline-block;
+}
+/* Accomplishments block */
+.about h2.accomplish-title {
+	color: var(--blue,blue);
+	font-weight: 800;
+}
+.about ul.accomplish-list {
+	line-height: 2rem;
+}
+.about .scope {
+	background: var(--gold,yellow);
+}
+.about h2.scope {
+	color: white;
+	font-weight: 800;
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+}
+.about p.scope {
+	color: white;
+	font-weight: 500;
+	margin-bottom: 0;
+	padding-bottom: 1rem;
+}
+.contact h1 {
+	color: var(--blue,blue);
+	font-weight: 800;
+}
+.contact h3 {
+	color: var(--gold,gold);
+	margin-bottom: .2rem;
+}
